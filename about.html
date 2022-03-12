@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Era University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bd5c7c48a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-link" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="placement.html">PLACEMENT</a></li>
+                    <li><a href="course.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are Uttrakhand's Best University</h1>
+                <p>
+                    In 1993 a young man with just twenty nine thousand and loads of determination embarked on a mission
+                    to transform the higher education landscape of the Doon valley. Graphic Era Deemed to be University
+                    is the culmination of the vision of its founder, Prof (Dr) Kamal Ghanshala, who had the dream to
+                    change the destiny of thousands of youth, through quality and holistic education and his vision took
+                    a concrete shape in the form of Graphic Era Institute in 1996.
+
+                    In 2008, the Institute was accorded the status of Deemed University under Section 3 of the UGC Act,
+                    1956 vide Notification F.9-48/2007-U.3 (A) dated August 14, 2008 and approved by Ministry of Human
+                    Resource Development, Government of India. In 2015 Graphic Era University was accredited by NAAC
+                    with grade ‘A’.
+
+                    Graphic Era (Deemed to be University) has been conferred All-India NIRF Rank 75 in the Engineering
+                    Category, thus being accorded as the highest-ranked Engineering University in Uttarakhand, after IIT
+                    Roorkee, in the MHRD NIRF (National Institutional Ranking Framework) Rankings in Septemeber 2021.
+                    GEU stands proud as the only university in Uttarakhand recognized as one among the top 100
+                    Universities of the country.
+                </p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                 <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="footer">
+        <div class="icon">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <p> Graphic Era (Deemed to be University) © 2022</p>
+        </div>
+
+    </div>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

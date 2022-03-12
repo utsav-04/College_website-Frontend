@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Era University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bd5c7c48a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-link" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="placement.html">PLACEMENT</a></li>
+                    <li><a href="course.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>Placements 2021-2022</h1>
+
+    </section>
+
+    <section class="placement">
+        <div class="row">
+            <div class="placement-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Placements Data 2021-2022</h2>
+                <p>Graphic Era Deemed to be University popularly known as Graphic Era University has a remarkable
+                    placement record and the institute is conducting its placement drive for the batch 2021 and till now
+                    over 2400+ offers have been offered to the students.
+                    <br>
+                    During the placement drive of 2021, a student of B-Tech (Computer Science) department has bagged the
+                    CTC of INR 40.37 LPA which was offered by Microsoft and the Highest CTC stood at INR 54.80 LPA which
+                    was offered by Google and the Average CTC stood at INR 5.38 LPA.
+                    A total of 200 plus companies participated in the placement drive and the companies that extended
+                    the job offers were Teradata, Zscaler, Amazon, Adobe and many others.
+                    <br>
+                    In the placement drive of 2021, more than 2400 offers have been provided by over 200 recruiters.
+
+                    During the placement drive of 2021, the highest CTC stood at INR 54.80 LPA and the average CTC stood
+                    at INR 5.38 LPA
+
+                    Some of the top recruiters like Adobe, Microsoft, Amazon, Teradata, Zscaler participated in the
+                    placement drive.
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter your Name">
+                        <input type="email" placeholder="Enter your Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="placement-right">
+                <h3>No.of Offers Made</h3>
+                <div>
+                    <span>Computer Science</span>
+                    <span>1300</span>
+                </div>
+                <div>
+                    <span>Electronics</span>
+                    <span>400</span>
+                </div>
+                <div>
+                    <span>Mechanical</span>
+                    <span>200</span>
+                </div>
+
+                <div>
+                    <span>Civil</span>
+                    <span>150</span>
+                </div>
+                <div>
+                    <span>Chemical</span>
+                    <span>160</span>
+                </div>
+                <div>
+                    <span>MBA</span>
+                    <span>220</span>
+                </div>
+                <div>
+                    <span>Hotel Management</span>
+                    <span>120</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="footer">
+        <div class="icon">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <p> Graphic Era (Deemed to be University) © 2022</p>
+        </div>
+
+    </div>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

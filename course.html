@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Era University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bd5c7c48a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-link" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="placement.html">PLACEMENT</a></li>
+                    <li><a href="course.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>Our Courses</h1>
+
+    </section>
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Few of the Courses are Listed Below.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Under Graduate</h3>
+                <p>We offer Under Graduate Program in all the department. We offer courses like Btech in CSE, ECE. BBA,
+                    BCA, BA, BSC and many more.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>We offer Post Graduate Program in all the department. We offer courses like Mtech in CSE, ECE. MBA,
+                    MCA, MA, MSC and many more.</p>
+            </div>
+            <div class="course-col">
+                <h3>Doctoral Programme</h3>
+                <p>We offer Doctoral Programme also. we offer PH.D. in computer Science and Engineering.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="facility">
+        <h1>Listed Facilities</h1>
+        <p>We have Gym,Sports,Laboratry,Cafeteria,Library,and all Other facility available.</p>
+        <div class="row">
+            <div class="facility-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Sports facility</h3>
+                <p>Separate courts for all different types of sports.</p>
+            </div>
+            <div class="facility-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Cafeteria</h3>
+                <p>We have 5 cafeteria in college campus.</p>
+            </div>
+            <div class="facility-col">
+                <img src="images/library.png" alt="">
+                <h3>Library</h3>
+                <p>We have a great library with all the facility and huge number of books in stock.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="footer">
+        <div class="icon">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <p> Graphic Era (Deemed to be University) © 2022</p>
+        </div>
+
+    </div>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
